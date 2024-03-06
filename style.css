@@ -1,0 +1,181 @@
+* {
+    font-family: "Poppins", sans-serif;
+
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    box-sizing: border-box;
+}
+
+/*----------NAVBAR------------*/
+
+body {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #800000;
+    color: white;
+}
+
+nav ul li {
+    color: black;
+    font-weight: 550;
+    transition: color 0.3s ease;
+}
+
+ul {
+    display: flex;
+    position: fixed;
+}
+
+nav ul li:hover {
+    color: #adadad;
+}
+
+.div-logo {
+    width: 50px;
+}
+
+li {
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+#logo-nav {
+    width:7%;
+    margin-top: 7px;
+    margin-left: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+}
+
+/*----------SECTION------------*/
+
+article {
+    width: 70%;
+    margin-left: 100px;
+}
+
+.section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+#img-transfer, #img-compras, #img-aparecida {
+    width: 25%;
+}
+
+#img-aparecida {
+    margin-bottom: 70px;
+}
+
+strong {
+    margin-top: 10px;
+    margin-bottom: 7px;
+    display: flex;
+}
+
+#p-transfer, #p-compras, #p-aparecida {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    width: 55%;
+    text-align: justify;
+}
+
+#p-aparecida {
+ margin-bottom: 80px;
+}
+
+/*----------ASIDE------------*/
+
+aside {
+    width: 30%;
+    margin-right: 100px;
+}
+
+#p-details {
+    display: flex;
+    width: 100%;
+    text-align: justify;
+    margin-right: 395px;
+}
+
+#img-qmsomos {
+    width: 100%;
+    float: right;
+    margin-top: 10px;
+}
+
+details {
+    width: 100%
+}
+
+summary {
+    float: inline-start;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+/*----------FOOTER------------*/
+ 
+footer 
+{
+    background-color: black;
+    color: white;
+    height: 171px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box{
+    display: block;
+    width: 20%;
+    align-items: center;
+    text-align: center;
+}
+
+#visite, #ligue, #email {
+    position: relative;
+    
+}
+
+#logo-insta{
+    display: inline-block;
+    width: 20%;
+}
+
+#insta {
+    width: 30%;
+}
+
+img {
+    border-radius: 10px;
+}
